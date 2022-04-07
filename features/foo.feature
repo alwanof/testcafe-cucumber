@@ -1,7 +1,7 @@
-Feature: As a  user I can login successfully-2
+Feature: [ads][auth] User should be able to logout any time at any page
 
-    @TEST_WP-971
-    Scenario Outline: As a  user I can login successfully-2
+    @TEST_WP-1021
+    Scenario Outline: [ads][auth] User should be able to logout any time at any page
         Given I open the login page
         When I am typing "<email>" request "<password>" and click login button
         Then I should see dashboard

@@ -1,7 +1,7 @@
-Feature: As a  user I can login successfully
+Feature: [ads][auth] User should be able to login ONLY with valid email and password
 
-  @TEST_WP-970
-  Scenario Outline: As a  user I can login successfully
+  @TEST_WP-990
+  Scenario Outline: [ads][auth] User should be able to login ONLY with valid email and password
     Given I open the login page
     When I am typing "<email>" request "<password>" and click login button
     Then I should see dashboard

@@ -31,6 +31,7 @@
     "test-firefox-headless": "./node_modules/.bin/cucumber-js.cmd  --world-parameters \"{\\\"browser\\\": \\\"firefox:headless\\\"}\""
   },
   "dependencies": {
+    "axios": "^0.26.1",
     "base64-img": "^1.0.4",
     "cucumber": "^5.1.0",
     "d": "1.0.0",

@@ -1,20 +1,20 @@
 [
   {
     "keyword": "Feature",
-    "name": "As a  user I can login successfully-2",
+    "name": "[ads][auth] User should be able to login ONLY with valid email and password",
     "line": 1,
-    "id": "as-a--user-i-can-login-successfully-2",
+    "id": "[ads][auth]-user-should-be-able-to-login-only-with-valid-email-and-password",
     "tags": [],
-    "uri": "features/foo.feature",
+    "uri": "features/google.feature",
     "elements": [
       {
-        "id": "as-a--user-i-can-login-successfully-2;as-a--user-i-can-login-successfully-2",
+        "id": "[ads][auth]-user-should-be-able-to-login-only-with-valid-email-and-password;[ads][auth]-user-should-be-able-to-login-only-with-valid-email-and-password",
         "keyword": "Scenario",
         "line": 10,
-        "name": "As a  user I can login successfully-2",
+        "name": "[ads][auth] User should be able to login ONLY with valid email and password",
         "tags": [
           {
-            "name": "@TEST_WP-971",
+            "name": "@TEST_WP-990",
             "line": 3
           }
         ],
@@ -28,7 +28,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 4261000000
+              "duration": 3906000000
             }
           },
           {
@@ -41,7 +41,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1503000000
+              "duration": 1800000000
             }
           },
           {
@@ -54,7 +54,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 13386000000
+              "duration": 8999000000
             }
           },
           {
@@ -67,7 +67,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 91000000
+              "duration": 68000000
             }
           },
           {
@@ -98,20 +98,20 @@
   },
   {
     "keyword": "Feature",
-    "name": "As a  user I can login successfully",
+    "name": "[ads][auth] User should be able to logout any time at any page",
     "line": 1,
-    "id": "as-a--user-i-can-login-successfully",
+    "id": "[ads][auth]-user-should-be-able-to-logout-any-time-at-any-page",
     "tags": [],
-    "uri": "features/google.feature",
+    "uri": "features/foo.feature",
     "elements": [
       {
-        "id": "as-a--user-i-can-login-successfully;as-a--user-i-can-login-successfully",
+        "id": "[ads][auth]-user-should-be-able-to-logout-any-time-at-any-page;[ads][auth]-user-should-be-able-to-logout-any-time-at-any-page",
         "keyword": "Scenario",
         "line": 10,
-        "name": "As a  user I can login successfully",
+        "name": "[ads][auth] User should be able to logout any time at any page",
         "tags": [
           {
-            "name": "@TEST_WP-970",
+            "name": "@TEST_WP-1021",
             "line": 3
           }
         ],
@@ -125,7 +125,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 4243000000
+              "duration": 3916000000
             }
           },
           {
@@ -138,7 +138,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1644000000
+              "duration": 1808000000
             }
           },
           {
@@ -151,7 +151,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 11716000000
+              "duration": 8649000000
             }
           },
           {
@@ -164,7 +164,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 956000000
+              "duration": 89000000
             }
           },
           {
