@@ -1,0 +1,196 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "As a  user I can login successfully-2",
+    "line": 1,
+    "id": "as-a--user-i-can-login-successfully-2",
+    "tags": [],
+    "uri": "features/foo.feature",
+    "elements": [
+      {
+        "id": "as-a--user-i-can-login-successfully-2;as-a--user-i-can-login-successfully-2",
+        "keyword": "Scenario",
+        "line": 10,
+        "name": "As a  user I can login successfully-2",
+        "tags": [
+          {
+            "name": "@TEST_WP-971",
+            "line": 3
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "features/support/hooks.js:49"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4261000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "I open the login page",
+            "match": {
+              "location": "features/step_definitions/google.js:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1503000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "I am typing \"mohammed.murad@admixplay.com\" request \"Zoom+9321\" and click login button",
+            "match": {
+              "location": "features/step_definitions/google.js:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 13386000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "I should see dashboard",
+            "match": {
+              "location": "features/step_definitions/google.js:25"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 91000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "features/support/hooks.js:65"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "features/support/hooks.js:59"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4000000
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "keyword": "Feature",
+    "name": "As a  user I can login successfully",
+    "line": 1,
+    "id": "as-a--user-i-can-login-successfully",
+    "tags": [],
+    "uri": "features/google.feature",
+    "elements": [
+      {
+        "id": "as-a--user-i-can-login-successfully;as-a--user-i-can-login-successfully",
+        "keyword": "Scenario",
+        "line": 10,
+        "name": "As a  user I can login successfully",
+        "tags": [
+          {
+            "name": "@TEST_WP-970",
+            "line": 3
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "features/support/hooks.js:49"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4243000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "I open the login page",
+            "match": {
+              "location": "features/step_definitions/google.js:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1644000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "I am typing \"mohammed.murad@admixplay.com\" request \"Zoom+9321\" and click login button",
+            "match": {
+              "location": "features/step_definitions/google.js:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 11716000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "I should see dashboard",
+            "match": {
+              "location": "features/step_definitions/google.js:25"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 956000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "features/support/hooks.js:65"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "features/support/hooks.js:59"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
