@@ -33,6 +33,7 @@ const axios = require('axios');
         console.log(`Status: ${res.status}`);
         console.log('Body: ', res.data);
     }).catch((err) => {
+        
         console.error(err);
     });
 
